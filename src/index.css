@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* === Design Tokens / Custom Theme === */
+@theme {
+  /* Colors */
+  --color-primary: #DF080F;
+  --color-primary-hover: #B30710;
+  --color-secondary: #001D43;
+  --color-accent: #DBB353;
+  --color-accent-light: #F0D98A;
+  --color-dark: #111111;
+  --color-light: #F5F5F5;
+  --color-muted: #8F8F8F;
+
+  /* Fonts */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-brand: 'Quicksand', sans-serif;
+}
+
+/* === Global Styles === */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-dark);
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
